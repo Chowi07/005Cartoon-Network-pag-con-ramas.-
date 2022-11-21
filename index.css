@@ -1,0 +1,130 @@
+/*Fuente de roda la pag*/
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap');
+
+/*Confi de toda la pag*/
+*{
+    box-sizing: border-box;
+    font-family: 'Rajdhani', sans-serif;
+}
+body html {
+   /* overflow-x: hidden;*/
+    height: 100%;
+}
+
+.imagen-fondo{
+    background-image: url(./imagenes/fondo.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 20em;
+    border-radius: 20px;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+
+}
+
+
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    background:linear-gradient(rgba(100, 100, 100, 0.091)
+    ,rgb(255, 255, 255));
+    border-radius: 30px;
+
+}
+.nav-link{
+    display: flex;
+    align-items: center;
+}
+.nav-link li{
+    margin: 0 20px;
+    display:block;
+    padding: 20px;
+}
+ a:hover {
+    background-color: rgba(255, 123, 0, 0.798); 
+    border-radius: 40px;
+    padding: 14px;
+}
+.ctn:hover{
+    background-color: rgba(255, 123, 0, 0.798); 
+    border-radius: 40px;
+    padding: 14px;
+}
+/* fin de  barra*/
+
+/*Header*/
+header{
+    border-radius: 20px;
+    background:linear-gradient(rgb(255, 255, 255),rgba(100, 100, 100, 0.235),rgb(255, 255, 255) );
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-content{
+    margin-bottom: 50px;
+
+    text-align: center;
+}
+.header-content h2{
+    font-size: 4vmin; 
+}
+.line{
+    width: 250px; 
+    height: 3px;
+    background: rgba(255, 0, 0, 0.73);
+    margin: 10px auto;
+    border-radius: 5px;
+}
+/*imagenes*/
+.imag-colum{
+    margin: auto;
+    width: 100%;
+    padding: 30px;
+    
+}
+.columnasx3{
+   
+    float: left;
+    width: 33.333%;
+    padding: 5px;
+}
+.columnasx3 img{
+    width: 100%;
+    border-radius: 10px;
+}
+/*BOTON*/
+.ctn{
+   padding: 10px 5px;
+   background: rgba(255, 123, 0, 0.798); 
+   border-radius: 20px;
+}
+
+.suscripcion{
+    padding: 40px;
+}
+
+.footer{
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+    border-radius: 40px;
+    background:linear-gradient(rgb(255, 255, 255),rgba(100, 100, 100, 0.238));
+}
+.footer>p {
+    font-size: 20px;
+
+}
+/*
+display: flex;
+padding: 20px;*/
